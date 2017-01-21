@@ -1,16 +1,16 @@
 {
-  "name": "complete-intro-to-react",
+  "name": "Mini-Netflix",
   "version": "1.0.0",
-  "description": "A two day workshop on a complete intro to React",
+  "description": "A mini version of Netflix",
   "main": "index.js",
-  "author": "Brian Holt <btholt@gmail.com>",
+  "author": "Coleby Kent",
   "license": "MIT",
   "scripts": {
     "test": "NODE_ENV=test jest",
     "update-test": "npm run test -- -u",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "eslint js/**/*.js server.js",
+    "lint": "eslint js/**/*.js webpack.config.js",
     "watch": "webpack --watch"
   },
   "dependencies": {
@@ -62,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btholt/complete-intro-to-react.git"
+    "url": ""
   },
   "keywords": [
     "react",
@@ -71,7 +71,7 @@
     "redux"
   ],
   "bugs": {
-    "url": "https://github.com/btholt/complete-intro-to-react/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/btholt/complete-intro-to-react#readme"
+  "homepage": ""
 }
