@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const Landing = React.createClass({
   render () {
@@ -6,7 +7,7 @@ const Landing = React.createClass({
       <div className='landing'>
         <h1>Mini Netflix</h1>
         <input type='text' placeholder='Search' />
-        <a>or Browse All</a>
+        <Link to='/search'>or Browse All</Link>
       </div>
     )
   }
